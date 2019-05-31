@@ -1,4 +1,4 @@
-﻿# Understanding AirBnB prices in Seattle
+﻿# Sparkify - Insights into churn prediction
 ## Table of Content
 
  1. Libraries used
