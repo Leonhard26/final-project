@@ -53,4 +53,5 @@ In terms of next steps, I would definitely recomend to run the modelling (i.e. t
 _______
 ### Other
 
-If you are even more interested, I am outlining my results in a blogpost. If you are interested, check it out and please feel free to get in touch: 
+If you are even more interested, I am outlining my results in a blogpost. If you are interested, check it out and please feel free to get in touch: https://leonhard-udacity.tumblr.com
+
