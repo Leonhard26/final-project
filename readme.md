@@ -41,8 +41,16 @@ I modelled three different classification algorithms:
 - Random forest
 - Support Vector machines
 
-In order to determine their performance, I chose the F1 score, since the labeled data is imbalanced (way more users that did not churn compared to the ones that churn. Based on the F1 score, Log regression and SVM perform best, however, it is a very small dataset for both, validation and training so that the next step would be to run the modelling on a bigger dataset.
-___
+In order to determine their performance, I chose the F1 score, since the labeled data is imbalanced (way more users that did not churn compared to the ones that churn. Based on the F1 score, Log regression and SVM perform best, however, it is a very small dataset for both, validation and training so that the results have to be tested with a bigger data set for greater confidence.
+_______
+### Conclusion
+
+In this notebook, we implemented a model with the objective to predict customer churn. We removed missing data, converted columns, and engineered new features for the model. We then trained three different models and analyzed their performance.
+
+Interestingly, this project gives great exposure to spark and to a very common use case by identifying customer with high chance to churn prior to the acutal losing. It is challenging to come up with features to be used in the modeling and requires some exploratory analysis in advance. Yet, the importance of propper features justifies the effort. 
+
+In terms of next steps, I would definitely recomend to run the modelling (i.e. training, validation) on a bigger dataset for greater insights and confidence in the performance. Additionally, more features could get engineered and added. That said, the model has a huge potential to improve if the sample size increases so that even better results would be expected
+_______
 ### Other
 
 If you are even more interested, I am outlining my results in a blogpost. If you are interested, check it out and please feel free to get in touch: 
